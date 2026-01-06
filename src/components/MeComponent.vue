@@ -1,7 +1,7 @@
 <template>
   <div class="hero mt-2">
     <div class="hero-content flex-col lg:flex-row">
-      <img src="../assets/images/me.JPG" class="w-sm rounded-lg shadow-2xl" />
+      <img src="../assets/images/me.webp" class="w-sm rounded-lg shadow-2xl" />
       <div>
         <h1 class="text-3xl font-bold sm:text-5xl">Seja Bem-Vindo!</h1>
         <p class="py-6">
@@ -24,7 +24,7 @@
           </button>
 
           <button class="btn bg-green-600 text-white border-green-600 mx-1">
-            <img src="../assets/images/whatsapp.png" alt="Botão Whatsapp" width="20" height="20">
+            <img src="../assets/images/whatsapp.webp" alt="Botão Whatsapp" width="20" height="20">
             <a href="https://wa.me/48991509084?text=Olá Anderson, vi seu portifólio e fiquei interessado no seu trabalho, podemos conversar?" target="_blank">Whatsapp</a>
           </button>
         </div>
