@@ -12,7 +12,7 @@ const router = createRouter({
     },
     {
       path: '/projects',
-      name: 'about',
+      name: 'projects',
       component: ProjetcsPage,
     },
   ],
