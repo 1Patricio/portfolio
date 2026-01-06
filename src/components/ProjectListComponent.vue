@@ -56,7 +56,7 @@
   <!-- Projeto 2 - Rick and Morty -->
   <div class="hero mt-2">
     <div class="hero-content flex-col lg:flex-row">
-      <video width="640" height="360" controls muted autoplay loop poster="./img/play.jpg" class="lg:mr-4">
+      <video width="640" height="360" controls muted autoplay loop class="lg:mr-4">
         <source src="../assets/videos/project2.mp4" type="video/mp4" />
         O seu navegador não suporta a tag de vídeo
       </video>
