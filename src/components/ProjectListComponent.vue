@@ -2,29 +2,59 @@
     <!-- Projeto 1 - PlugGo -->
   <div class="hero mt-2">
     <div class="hero-content flex-col lg:flex-row-reverse">
-      <div class="carousel rounded-box xl:w-fit lg:ml-24">
-        <div class="carousel-item h-96">
-          <img src="../assets/images/pluggo-1.png" alt="Imagem projeto pluggo 1"/>
+      <div class="carousel w-2/3 rounded lg:ml-24">
+        <div id="pluggo1" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/pluggo-1.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#pluggo4" class="btn btn-circle">❮</a>
+            <a href="#pluggo2" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="carousel-item h-96">
-          <img src="../assets/images/pluggo-2.jpeg" alt="Imagem projeto pluggo 2"/>
+        <div id="pluggo2" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/pluggo-2.png"
+          style="" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#pluggo1" class="btn btn-circle">❮</a>
+            <a href="#pluggo3" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="carousel-item h-96">
-          <img src="../assets/images/pluggo-3.jpeg" alt="Imagem projeto pluggo 3"/>
+        <div id="pluggo3" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/pluggo-3.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#pluggo2" class="btn btn-circle">❮</a>
+            <a href="#pluggo4" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="carousel-item h-96">
-          <img src="../assets/images/pluggo-4.png" alt="Imagem projeto pluggo 4"/>
+        <div id="pluggo4" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/pluggo-4.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#pluggo3" class="btn btn-circle">❮</a>
+            <a href="#pluggo1" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="carousel-item h-96">
-          <img src="../assets/images/pluggo-5.jpeg" alt="Imagem projeto pluggo 5"/>
+        <div id="pluggo4" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/pluggo-5.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#pluggo4" class="btn btn-circle">❮</a>
+            <a href="#pluggo1" class="btn btn-circle">❯</a>
+          </div>
         </div>
       </div>
 
       <div>
         <h1 class="text-3xl font-bold sm:text-5xl">Plug Go!</h1>
         <h6 class="text-sm font-mono sm:text-sm mt-1">Aplicativo para reservas de eletropontos para carros elétricos</h6>
-        <p class="py-6">
-          Desenvolvi o Plug-Go, um aplicativo completo para reserva de pontos de recarga de veículos elétricos. Focado em boas práticas, utilizei injeção de dependência para um código escalável e de fácil manutenção, integração com <b>Firebase Auth</b> para autenticação segura e suporte a múltiplos idiomas (i18n). Um projeto que demonstra a construção de uma aplicação mobile robusta e moderna com <b>Flutter</b>. Para o backend, desenvolvi uma API feita em <b>Java</b>, SpringBoot e PostgreSQL.
+        <p class="py-6" style="max-width: 1900px;">
+          Desenvolvi o Plug-Go, um aplicativo completo para reserva de pontos de recarga de veículos elétricos. Focado em boas práticas, utilizei injeção de dependência para um código escalável e de fácil manutenção, integração com <b>Firebase Auth</b> para autenticação segura. Um projeto que demonstra a construção de uma aplicação mobile robusta e moderna com <b>Flutter</b>. Para o backend, desenvolvi uma API feita em <b>Java</b>, SpringBoot e PostgreSQL.
         </p>
 
         <div class="flex items-center mr">
@@ -56,7 +86,7 @@
   <!-- Projeto 2 - Rick and Morty -->
   <div class="hero mt-2">
     <div class="hero-content flex-col lg:flex-row">
-      <video width="640" height="360" controls muted autoplay loop class="lg:mr-4">
+      <video width="640" height="360" controls muted autoplay loop class="lg:mr-4 rounded">
         <source src="../assets/videos/project2.mp4" type="video/mp4" />
         O seu navegador não suporta a tag de vídeo
       </video>
@@ -81,6 +111,73 @@
           <div class="badge badge-outline">DaisyUI</div>
           <div class="badge badge-outline">VueRouter</div>
           <div class="badge badge-outline">Vite</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-8"/>
+
+  <!-- Projeto 3 - Atlética Buggers-->
+  <div class="hero mt-2">
+    <div class="hero-content flex-col lg:flex-row-reverse">
+      <div class="carousel w-2/3 rounded lg:ml-24">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/buggers-1.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/buggers-2.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/buggers-3.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img
+          src="../assets/images/buggers-4.png"
+          class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="text-2xl font-bold sm:text-5xl">Associação Acâdemica <br>Atlética Buggers!</h1>
+        <h6 class="text-sm font-mono sm:text-sm mt-1">1º Associação Acâdemia do Curso de ADS da ULBRA</h6>
+        <p class="py-6">
+          Fundador da 1ª Associação Acadêmica do curso de Análise e Desenvolvimento de Sistemas da ULBRA. O projeto nasceu da necessidade de criar um senso de comunidades para os alunos do curso através de eventos, produtos e palestras
+        </p>
+
+        <div class="flex items-center mr">
+          <button class="btn bg-gray-700 text-white border-gray-700 mx-1">
+            <img src="../assets/images/visualizar.png" alt="Botão Navegação até a página de linkedin da Atlética Buggers" width="20" height="20">
+            <a href="https://www.linkedin.com/company/atletica-buggers/posts/?feedView=all" target="_blank">Visualizar</a>
+          </button>
+        </div>
+
+        <div class="card-actions justify-start mt-2 md:justify-end md:mt-0">
+          <div class="badge badge-outline">Liderança</div>
+          <div class="badge badge-outline">Comunicação</div>
+          <div class="badge badge-outline">Organização</div>
         </div>
       </div>
     </div>
