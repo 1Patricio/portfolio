@@ -117,7 +117,7 @@
       <div>
         <h1 class="text-3xl font-bold sm:text-5xl">MVP Rick and Morty!</h1>
         <p class="py-6">
-          Desenvolvi um MVP em <b>Vue.js</b> para buscar personagens e episódios da API Rick and Morty. Arquitetura componentizada (SFCs), roteamento organizado, layout reutilizávele e uso de DaisyUI | Tailwind para consistência visual. Segui boas práticas de SEO (meta tags), acessibilidade (roles semânticos) e carregamento assíncrono, com foco em código limpo, performance e escalabilidade
+          Desenvolvi um MVP em <b>Vue.js</b> para buscar personagens e episódios da API Rick and Morty. Arquitetura componentizada (SFCs), roteamento organizado, layout reutilizável e uso de DaisyUI | Tailwind para consistência visual. Segui boas práticas de SEO (meta tags), acessibilidade (roles semânticos) e carregamento assíncrono, com foco em código limpo, performance e escalabilidade
         </p>
 
         <button class="btn bg-black text-white border-black mx-1 mb-1">
